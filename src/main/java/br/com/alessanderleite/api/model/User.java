@@ -19,7 +19,7 @@ public class User {
 	private String firstName;
 	
 	@Column(name = "last_name",nullable = false)
-	private String lasteName;
+	private String lastName;
 	
 	@Column(name = "email_address",nullable = false)
 	private String emailId;
@@ -36,11 +36,11 @@ public class User {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	public String getLasteName() {
-		return lasteName;
+	public String getLastName() {
+		return lastName;
 	}
-	public void setLasteName(String lasteName) {
-		this.lasteName = lasteName;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 	public String getEmailId() {
 		return emailId;
